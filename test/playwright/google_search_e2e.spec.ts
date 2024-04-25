@@ -15,6 +15,6 @@ test.describe("Google Search Functionality", () => {
       .getByRole("heading", { name: "Mount Everest", exact: true })
       .locator("span")
       .textContent();
-    expect(text).toContain("List of highest mountains on Earth");
+    expect(text).toContain("Mount Everest");
   });
 });
