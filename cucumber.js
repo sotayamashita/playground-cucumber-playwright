@@ -3,7 +3,7 @@ let common = [
   "--require-module ts-node/register", //typescript cucumber
   "--require ./test/cucumber/features/stepDefinitions/**/*.ts",
   "--format progress-bar",
-  "--format html:cucumber-reports/cucumber-report.html",
+  "--format html:cucumber-report/cucumber-report.html",
   `--format-options '{"snippetInterface": "synchronous"}'`,
 ].join(" ");
 
