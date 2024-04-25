@@ -1,0 +1,8 @@
+// Compiling your TypeScript Support Code
+// https://github.com/timjroberts/cucumber-js-tsflow?tab=readme-ov-file#compiling-your-typescript-support-code
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "experimentalDecorators": true
+  }
+}
