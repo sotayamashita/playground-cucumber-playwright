@@ -26,3 +26,8 @@ It will generate an HTML report under `playwright-report/` after executing the c
 ```bash
 pnpm run test:playwright
 ```
+
+## Acknowledgement
+
+- [Tallyb/cucumber-playwright](https://github.com/Tallyb/cucumber-playwright)
+- [serenity-js/serenity-js-cucumber-playwright-template](https://github.com/serenity-js/serenity-js-cucumber-playwright-template)
